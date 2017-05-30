@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sample Webpage</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Sample Webpage</title>
+  <script>
+    
+    $(document).ready(function(){
+      $(this).click(function(){
+        $("p").hide();
+      });
+    });
+    
+  </script>
 </head>
 <body>
 <h1>Sample Text</h1>
   <a href="linkedpage.html">Click this link</a>
+  <br/>
+  <br/>
+  <p>This is a paragraph.</p>
 </body>
 </html>
